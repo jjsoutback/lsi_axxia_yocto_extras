@@ -1,0 +1,38 @@
+meta-lsi
+==========
+
+This is the official OpenEmbedded/Yocto BSP layer for LSI platforms.
+
+Supported MACHINES:
+
+	elpaso - ppc476
+	lsisim - ARM Cortex A15
+ 
+Sources
+-------
+
+git://git.yoctoproject.org/meta-lsi
+http://git.yoctoproject.org/git/meta-lsi
+
+Dependencies
+------------
+
+This layer depends on:
+
+URI: git://git.openembedded.org/openembedded-core
+branch: master
+revision: HEAD
+
+Patches
+-------
+
+Please submit any patches against this BSP to the Yocto mailing list
+(meta-lsi@yoctoproject.org) and cc: the maintainer:
+
+Maintenance
+-----------
+
+Maintainer: Paul Butler <paul.butler@windriver.com>
+
+Please see the meta-lsi/MAINTAINERS file for more details.
+
