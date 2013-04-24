@@ -1,1 +1,1 @@
-KBRANCH_${MACHINE} = "lsi_rt_acp34xx"
+KBRANCH_${MACHINE} = "standard/preempt-rt/lsi/acp34xx"
