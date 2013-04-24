@@ -1,12 +1,25 @@
 meta-lsi
 ==========
 
-This is the official OpenEmbedded/Yocto BSP layer for LSI platforms.
+This is the official OpenEmbedded/Yocto BSP layer for LSI’s family of
+Axxia Communication Processors.
 
 Supported MACHINES:
 
 	elpaso - ppc476
-	lsisim - ARM Cortex A15
+	axm5500sim - ARM Cortex A15 simulator
+
+The El Paso machine is LSI’s ACP344x reference platform. The ACP344x
+processor contains an embedded PPC476 CPU subsystem which is the focus
+of this BSP. The PPC476 CPU subsystem includes: up to 4 PPC476 SMP cores,
+UART, SSP, FEMAC, NAND, USB, I2C, GPIO, PCIe and SRIO controllers.
+
+The axm5500sim machine is LSI’s Axxia Software Environment (ASE) simulation
+platform for the AXM55xx family of devices. The AXM55xx contains an embedded
+ARM Cortex-A15 CPU subsystem which is the focus of this BSP. The ARM Cortex-A15
+CPU subsystem contains up to 16 Cortex-A15 cores, UART, SSP, FEMAC, SD/MMC,
+USB, I2C, GPIO, PCIe and SRIO controllers.
+
  
 Sources
 -------
