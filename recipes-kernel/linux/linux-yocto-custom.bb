@@ -1,5 +1,7 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}/linux-3.4/${MACHINE}:"
 
+COMMON_DIR := "${THISDIR}/common"
+
 inherit kernel
 require recipes-kernel/linux/linux-yocto.inc
 
