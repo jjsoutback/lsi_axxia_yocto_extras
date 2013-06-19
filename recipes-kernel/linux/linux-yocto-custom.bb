@@ -15,7 +15,8 @@ SRC_URI_${MACHINE} ?= "git://${KSRC_linux_custom};bareclone=1;branch=${KBRANCH}"
 
 SRC_URI_${MACHINE} += "file://defconfig"
 
-SRCREV="${AUTOREV}"
+SRCREV = "lsi_axxia_linux_7.8.1.2"
+
 LINUX_VERSION ?= "3.4.28"
 LINUX_VERSION_EXTENSION = "-custom"
 
